@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <a id="Haut"></a>
+    <header>
+        <h1>La Ferme Gourmande</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Accueil</a></li>
+                <li><a href="#">Le Périgord</a></li>
+                <li><a href="#">Notre site</a></li>
+                <li><a href="#">Contactez-nous</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <h2>Gourmandise et Partage</h2>
+            <p>Nous serons très heureux de vous accueillir à <b>la Ferme Gourmande</b> afin de vous faire partager
+                l'amour
+                de notre région et de vous faire découvrir toutes nos plus belles spécialités.Vous ne connaissez pas le
+                Périgord Noir ?
+                <b><i>Réservez vite</i></b>
+            </p>
+        </section>
+
+        <div class="video">
+            <iframe height="300" width="500" src="https://www.youtube.com/embed/x7gKf0M8gEI"
+                title="Dordogne Périgord : Découverte de la Vallée de la Dordogne" allowfullscreen></iframe>
+        </div>
+
+        <section>
+            <h3>Contactez-nous</h3>
+            <p> Adresse</p>
+            <p>impasse du breil, 24260 Le Bugues</p>
+            <p>Téléphone</p>
+            <p><a href="tel">06 82 23 78 10</a></p>
+            <p>Notre Email</p>
+            <p><a href="contact@lafermegourmande.com">contact@lafermegourmande.com</a></p>
+        </section>
+        <section>
+            <h3>Nos Horaires</h3>
+            <table>
+                <tr>
+                    <th>Jours</th>
+                    <th>Lundi</th>
+                    <th>Mardi au Jeudi</th>
+                    <th>Vendredi au Dimanche</th>
+                </tr>
+                <tr>
+                    <th>Horaires</th>
+                    <th>Fermé</th>
+                    <th>8h à 19h</th>
+                    <th>8h à 20h</th>
+                </tr>
+            </table>
+        </section>
+        <section>
+            <h3>Laissez nous un message</h3>
+            <form action="/ma-page-de-traitement" method="post">
+                <ul>
+                    <li>
+                        <label for="name">Nom Prénom</label>
+                        <input type="text" id="name" name="user_name">
+                    </li>
+                    <li>
+                        <label for="mail">E-mail</label>
+                        <input type="email" id="mail" name="user_mail">
+                    </li>
+                    <li><label for="tel">Téléphone</label>
+                        <input type="tel" id="tel" name="user_tel">
+                    </li>
+                    <li>
+                        <label for="msg">Message</label>
+                        <textarea id="msg" name="user_message"></textarea>
+                    </li>
+                </ul>
+                <div class="button">
+                    <button type="submit">Envoyer</button>
+                </div>
+            </form>
+        </section>
+        <section>
+            <h4>C'est trop beau le Périgord noir</h4>
+            <div class="img">
+                <img src="img/img/hotel-sarlat.jpg" alt="hotel sarlat">
+                <img src="img/img/dordogne.jpg" alt="Dordogne">
+                <img src="img/img/perigord-noir.jpg" alt="périgord noir">
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>Copyright 2019-<a href="#">Office du tourisme du Périgord</a> </p>
+        <a href="#top">Retour vers le Haut</a>
+    </footer>
+</body>
+
+</html>
